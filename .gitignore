@@ -1,0 +1,29 @@
+CJDH_local_settings.py
+__pycache__/CJDH_local_settings.cpython-311.pyc
+
+# Ignore huge CSVs
+data/FPL_CurrentS_Player_Allfixtures_vaastav.csv
+data/FPL_Data_GWs_2018to25_vaastav.csv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Very important to ignore!)
+venv/
+.venv/
+env/
+bin/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables (Sensitive info)
+.env
+
+# IDE specific files
+.vscode/
+.idea/
